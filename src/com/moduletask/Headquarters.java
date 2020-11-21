@@ -18,7 +18,7 @@ public class Headquarters {
         commander1.addSolder(solder2);
         commander1.addSolder(solder3);
 
-        Commander commander2 = new Commander("Commander 2", 45, "General2");
+        Commander commander2 = new Commander("Commander 2", 45, "General1");
         commander2.addSolder(solder4);
         commander2.addSolder(solder5);
         commander2.addSolder(solder6);
