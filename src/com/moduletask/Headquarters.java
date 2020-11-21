@@ -38,7 +38,7 @@ public class Headquarters {
             try {
                 human.report();
             } catch (CannotReportExceptions cannotReportExceptions) {
-                cannotReportExceptions.printStackTrace();
+                cannotReportExceptions.getMessage();
             }
         }
 
